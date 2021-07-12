@@ -32,7 +32,7 @@ class EMP:
     def lname(self):
         return self.__lname
 
-    @empno.setter
+    @lname.setter
     def lname(self, lname):
         self.__lname = lname
 
@@ -40,7 +40,7 @@ class EMP:
     def fname(self):
         return self.__fname
 
-    @empno.setter
+    @fname.setter
     def fname(self, fname):
         self.__fname = fname
 
@@ -48,7 +48,7 @@ class EMP:
     def email(self):
         return self.__email
 
-    @empno.setter
+    @email.setter
     def email(self, email):
         self.__email = email
 
@@ -56,7 +56,7 @@ class EMP:
     def phone(self):
         return self.__phone
 
-    @empno.setter
+    @phone.setter
     def phone(self, phone):
         self.__phone = phone
 
@@ -64,23 +64,23 @@ class EMP:
     def hdate(self):
         return self.__hdate
 
-    @empno.setter
+    @hdate.setter
     def hdate(self, hdate):
         self.__hdate = hdate
 
     @property
-    def jonid(self):
-        return self.__jonid
+    def joinid(self):
+        return self.__joinid
 
-    @empno.setter
-    def jonid(self, jonid):
-        self.__jonid = jonid
+    @joinid.setter
+    def joinid(self, joinid):
+        self.__joinid = joinid
 
     @property
     def sal(self):
         return self.__sal
 
-    @empno.setter
+    @sal.setter
     def sal(self, sal):
         self.__sal = sal
 
@@ -88,7 +88,7 @@ class EMP:
     def comm(self):
         return self.__comm
 
-    @empno.setter
+    @comm.setter
     def comm(self, comm):
         self.__comm = comm
 
@@ -96,7 +96,7 @@ class EMP:
     def mgr(self):
         return self.__mgr
 
-    @empno.setter
+    @mgr.setter
     def mgr(self, mgr):
         self.__empno = mgr
 
@@ -104,6 +104,6 @@ class EMP:
     def deptid(self):
         return self.__deptid
 
-    @empno.setter
+    @deptid.setter
     def deptid(self, deptid):
         self.__deptid = deptid
